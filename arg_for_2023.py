@@ -25,19 +25,10 @@ def hide_st():
             </style>
             """
     st.markdown(hide_st_style, unsafe_allow_html=True)
-back = """
-<style>
-[class="main css-uf99v8 egzxvld5"] {
-background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png");
-background-repeat: repeat;
-background-attachment: fixed;
-}
-"""
 config()
 hide_st()
 def main():
     st.cache()
-    st.markdown(back,True)
     selected = option_menu(
             menu_title=None,
             options=['Home','Stories','Decoder','Admin Login'],
