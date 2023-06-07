@@ -3,7 +3,7 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 
 
 def Stories():
-    tab1, tab2,tab3,tab4,tab5,tab6,tab7,tab8,tab9,tab10 = st.tabs(10)
+    tab1, tab2,tab3,tab4,tab5,tab6,tab7,tab8,tab9,tab10 = st.tabs(['story 1','story 2', 'story 3','story 4','story 5','story 6','story 7','story 8','story 9','story 10'])
     with tab1:
         st.subheader("story 1")
         st.write("Once upon a time, in the bustling halls of West Windsor-Plainsboro High School South (HSS), a new student named Raj arrived from India. Raj was an innocent and curious individual, eager to adapt to his new environment. Little did he know that his journey in this school would be filled with mystery and intrigue.")
