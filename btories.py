@@ -36,15 +36,7 @@ def Stories():
         add_vertical_space()
         st.write("One day, Raj stumbled upon a peculiar painting in the school hallway. The painting depicted a compass pointing southeast, captivating his attention. Below the compass, a riddle was inscribed:")
         add_vertical_space()
-        st.write("""In  🏫 ,  🅰 painting with compass bold , 
-Points southeast ,  🅰 tale to unfold . 
-Look below , where pirates roam , 
-How many good  👀 call it home ? 
-
-A pirate awaits ,  🅰 daring sight , 
-But how many  👀 shine with light ? 
-Seek the answer , let curiosity guide , 
-The painting ' s  ㊙ it shall confide . """)
+        st.markdown('In  🏫 ,  🅰 painting with compass bold ,\nPoints southeast ,  🅰 tale to unfold . \nLook below , where pirates roam ,\nHow many good  👀 call it home ? \nA pirate awaits ,  🅰 daring sight , \nBut how many  👀 shine with light ? \nSeek the answer , let curiosity guide , \nThe painting \' s  ㊙ it shall confide .')
         add_vertical_space()
         st.write("")
         st.write("")
