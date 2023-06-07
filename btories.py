@@ -47,6 +47,8 @@ def Stories():
         st.write("The painting ' s  ㊙ it shall confide .")
         h = st.text_input("what is the answer to this riddle?")
         if h == '1':
+            st.success("Riddle sloved")
+            st.balloons()
             st.write("Intrigued by the riddle, Raj immediately sensed that solving it would lead him closer to the heart of the mystery surrounding the school. With determination in his eyes, he sought the help of Ram Panchangam, who had a reputation for being skilled at puzzles.")
             add_vertical_space()
             st.write("“Hey Ram, I have to ask you something,” Raj said, sitting down at their lunch table.")
