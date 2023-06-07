@@ -58,7 +58,7 @@ def main():
         add_vertical_space()
         st.write("Get ready for an immersive adventure where your skills will be put to the test. Unlock the secrets within each story, solve the puzzles, and embark on an unforgettable scavenger hunt in the school. Are you up for the challenge?")
     if "Stories" == selected:
-        Storiesx
+        Stories()
 
 
 
