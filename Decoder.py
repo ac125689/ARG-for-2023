@@ -5,5 +5,5 @@ def decoder():
     mess = st.text_area('Past the riddle here')
     sele = st.selectbox('Select wich type do you want?',['Binary encoder','Hex encoder','Unicode encoder','Url encoder','Base64 encoder','Morse code encoder','Binary decoder','Hex decoder','Unicode decoder','Url decoder','Base64 decoder','Morse code decoder'])
     if sele == 'Binary encoder':
-        with st.button('Encode to binary'):
+        if st.button('Encode to binary'):
             st.success(encode_binary(mess))
