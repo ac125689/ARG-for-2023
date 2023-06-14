@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_extras.add_vertical_space import add_vertical_space
-from btories import Stories
+from stories import Stories
 from home import home
 from Decoder import decoder
 def dissclamer():
@@ -31,7 +31,7 @@ def main():
     st.cache()
     selected = option_menu(
             menu_title=None,
-            options=['Home','Stories','Decoder','Admin Login'],
+            options=['Home','Stories','Encoder & Decoder','Admin Login'],
             icons=['house-door-fill','card-checklist','person-fill'],
             menu_icon='cast',
             default_index=0,
