@@ -42,7 +42,7 @@ def main():
         home()
     if "Stories" == selected:
         Stories()
-    if "Decoder" == selected:
+    if "Encoder & Decoder" == selected:
         decoder()
 
 
