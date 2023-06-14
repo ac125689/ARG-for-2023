@@ -39,7 +39,7 @@ def Stories():
         st.write('.. -. / ... -.-. .... --- --- .-.. --..-- / .- / .--. .- .. -. - .. -. --. / .-- .. - .... / -.-. --- -- .--. .- ... ... / -... --- .-.. -.. --..-- / .--. --- .. -. - ... / ... --- ..- - .... . .- ... - --..-- / .- / - .- .-.. . / - --- / ..- -. ..-. --- .-.. -.. .-.-.- / .-.. --- --- -.- / -... . .-.. --- .-- --..-- / .-- .... . .-. . / .--. .. .-. .- - . ... / .-. --- .- -- --..-- / .... --- .-- / -- .- -. -.-- / --. --- --- -.. / . -.-- . ... / -.-. .- .-.. .-.. / .. - / .... --- -- . ..--..')
         add_vertical_space()
         st.write(".- / .--. .. .-. .- - . / .- .-- .- .. - ... --..-- / .- / -.. .- .-. .. -. --. / ... .. --. .... - --..-- / -... ..- - / .... --- .-- / -- .- -. -.-- / . -.-- . ... / ... .... .. -. . / .-- .. - .... / .-.. .. --. .... - ..--.. ... . . -.- / - .... . / .- -. ... .-- . .-. --..-- / .-.. . - / -.-. ..- .-. .. --- ... .. - -.-- / --. ..- .. -.. . --..-- / - .... . / .--. .- .. -. - .. -. --. .----. ... / ... . -.-. .-. . - / .. - / ... .... .- .-.. .-.. / -.-. --- -. ..-. .. -.. . .-.-.-")
-        a = st.text_input("what is the answer to this riddle?")
+        a = st.text_input("what is the answer to this riddle1?")
         if a == '1':
             r_s=st.success("Riddle sloved")
             b_b=st.balloons()
@@ -137,7 +137,7 @@ def Stories():
                 st.write("SW4gYSBwYWludGluZydzIGdhemUsIGEgZG9vciBpdCBzcGllcywKV2l0aCB0aGUgbmFtZSAnNjAwJyB0byB5b3VyIHN1cnByaXNlLgpCZXNpZGUgdGhlIGhhbmRzLCB3b3JkcyBuZWF0bHkgYWRvcm4sCk5vdyBjb2xsZWN0IHRoZSBmaXJzdCBsZXR0ZXJzLCB5b3VyIHRhc2sgaXMgYm9ybi4K")
                 add_vertical_space()
                 st.write("U2VlayB0aGUgYW5zd2VyIHdpdGhpbiB0aGlzIGNvZGVkIHNpZ24sCldoZXJlIGVhY2ggd29yZCdzIGZpcnN0IGxldHRlciBhbGlnbnMuCkRlY2lwaGVyIHRoZSByaWRkbGUsIHVubG9jayB0aGUgY2x1ZSwKRGlzY292ZXIgdGhlIG1lYW5pbmcgaGlkZGVuIGZyb20gdmlldy4KCg==")
-                b = st.text_input("what is the answer to this riddle?")
+                b = st.text_input("what is the answer to this riddle2?")
                 if b == 'cnpup':
                     r_s
                     b_b
