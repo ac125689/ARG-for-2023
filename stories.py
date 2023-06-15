@@ -3,9 +3,8 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 
 
 def Stories():
-    tab1, tab2,tab3,tab4,tab5,tab6,tab7 = st.tabs(['story 1','story 2', "Unveiling the Compass's Secrets: The Enigmatic Adventures of Shylock and his Detectives",'story 4','story 5',"The Enigma of Secrets Unveiled: A Journey Through Mystery and Intrigue","Unraveling Dreams: The Quest of Hira, Sabeen, and Kamakshi"])
+    tab1, tab2,tab3,tab4,tab5,tab6,tab7 = st.tabs(['Mysteries Unveiled','Unveiling Secrets', "Unveiling the Compass's Secrets",'Unraveling Shadows','The Unbreakable Bonds',"The Enigma of Secrets Unveiled","Unraveling Dreams"])
     with tab1:
-        st.subheader("story 1")
         st.write("Once upon a time, in the bustling halls of West Windsor-Plainsboro High School South (HSS), a new student named Raj arrived from India. Raj was an innocent and curious individual, eager to adapt to his new environment. Little did he know that his journey in this school would be filled with mystery and intrigue.")
         add_vertical_space()
         st.write("Walking down the hall to his first class, Raj almost bumped into someone.“Watch where you’re going dude!” the person he almost bumped into yells not unkindly.Bustling was definitely the right way to describe this place. Everyone moved about, knowing where to go and how to skillfully avoid accidents. Well, everyone except Raj. Although that probably had something to do with the fact that he was new.")
